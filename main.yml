@@ -1,0 +1,7 @@
+---
+- name: Least malicious playbook to host system
+  hosts: localhost
+  tasks:
+    - name: Debug msg
+      debug:
+        msg: hello
